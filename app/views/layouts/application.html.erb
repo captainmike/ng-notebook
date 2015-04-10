@@ -22,7 +22,6 @@
   </head>
 
   <body>
-
     <div class="container">
       <div class="header clearfix">
         <nav>
@@ -35,18 +34,10 @@
         <h3 class="text-muted" app-name></h3>
       </div>
 
-      <div ng-controller='NotesCtrl'>
-        <note-featured
-          heading='featured.title'
-          body='featured.description'>
-        <note-featured>
+      <note-featured></note-featured>
 
-        <div class="row marketing" ng-repeat='note in notes'>
-          <note-card
-            heading='note.title'
-            body='note.description'>
-          </note-card>
-        </div>
+      <div class="row marketing">
+        <note-cards></note-cards>
       </div>
 
       <footer class="footer">
