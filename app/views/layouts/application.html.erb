@@ -35,19 +35,17 @@
         <h3 class="text-muted" app-name></h3>
       </div>
 
-      <div class="jumbotron">
-        <h1>Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      </div>
+      <div ng-controller='NotesCtrl'>
+        <note-featured
+          heading='featured.title'
+          body='featured.description'>
+        <note-featured>
 
-      <div class="row marketing" ng-controller='NotesCtrl'>
-        <div class="col-lg-6">
-          <div ng-repeat='note in notes'>
-            <note-card
-              heading='note.title'
-              body='note.description'>
-            </note-card>
-          </div>
+        <div class="row marketing" ng-repeat='note in notes'>
+          <note-card
+            heading='note.title'
+            body='note.description'>
+          </note-card>
         </div>
       </div>
 

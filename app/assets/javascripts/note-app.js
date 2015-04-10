@@ -7,5 +7,5 @@ angular.module('noteApp', [])
 
   .controller('NotesCtrl', ['$scope', 'Note', function($scope, Note) {
     $scope.notes = Note.all();
-    // $scope.featuredNote = Note.featured();
+    $scope.featured = Note.featured();
   }]);

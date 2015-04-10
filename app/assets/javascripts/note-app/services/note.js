@@ -1,12 +1,15 @@
 angular.module('noteApp')
   .factory('Note', function() {
     return {
+      featured: function() {
+        return {
+          title: "Mascherano on Xavi",
+          description: "Mascherano: \"Like the fans, I hope Xavi stays. He represents everything a Barça player should be. He's an example for future players.\""
+        };
+      },
+
       all: function() {
         return [
-          {
-            title: "Mascherano on Xavi",
-            description: "Mascherano: \"Like the fans, I hope Xavi stays. He represents everything a Barça player should be. He's an example for future players.\""
-          },
           {
             title: "Suarez on playing with Messi and Neymar",
             description: "Suarez: \"It's a privilege to play with Messi and Neymar. And it's a relief - with them around, I have less responsibility.\""
