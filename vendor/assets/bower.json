@@ -1,7 +1,7 @@
 {
   "name": "dsl-generated dependencies",
   "dependencies": {
-    "angular": "1.4.0-build.3954",
+    "angular": "1.4.0-rc.0",
     "bootstrap-sass-official": "latest"
   }
 }

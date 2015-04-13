@@ -46,4 +46,3 @@ group :development, :test do
   gem "database_cleaner"
   gem "selenium-webdriver"
 end
-

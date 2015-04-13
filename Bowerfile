@@ -3,5 +3,5 @@
 
 # asset 'bootstrap'
 
-asset 'angular', '1.4.0-build.3954'
+asset 'angular', '1.4.0-rc.0'
 asset 'bootstrap-sass-official'
