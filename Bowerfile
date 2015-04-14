@@ -4,4 +4,5 @@
 # asset 'bootstrap'
 
 asset 'angular', '1.4.0-rc.0'
+asset 'angular-new-router', '0.5.3'
 asset 'bootstrap-sass-official'

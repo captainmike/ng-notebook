@@ -2,6 +2,7 @@
   "name": "dsl-generated dependencies",
   "dependencies": {
     "angular": "1.4.0-rc.0",
+    "angular-new-router": "0.5.3",
     "bootstrap-sass-official": "latest"
   }
 }
