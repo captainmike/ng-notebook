@@ -4,13 +4,16 @@ angular.module('noteApp')
       all: function() {
         return [
           {
-            name: 'FC Barcelona'
+            name: 'FC Barcelona',
+            key: 'fc-barcelona'
           },
           {
-            name: 'Ruby on Rails'
+            name: 'Ruby on Rails',
+            key: 'ruby-on-rails'
           },
           {
-            name: 'AngularJS'
+            name: 'AngularJS',
+            key: 'angular-js'
           }
         ];
       }
