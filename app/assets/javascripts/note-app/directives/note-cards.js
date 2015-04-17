@@ -5,10 +5,11 @@ angular.module('noteApp')
     return {
       scope: {},
       templateUrl: '/javascripts/note-app/templates/note-cards.html',
-      controller: 'NoteCardsCtrl'
+      controller: 'NoteCardsCtrl',
+      controllerAs: 'NoteCardsCtrl'
     };
   })
-  .controller('NoteCardsCtrl', ['$scope', 'Note', function($scope, Note) {
-    $scope.notes = Note.all();
+  .controller('NoteCardsCtrl', ['Note', function(Note) {
+    this.notes = Note.all();
   }]);
 
