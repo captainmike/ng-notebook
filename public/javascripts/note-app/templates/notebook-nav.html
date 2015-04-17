@@ -1,6 +1,6 @@
 <nav>
   <ul class="nav nav-pills pull-right">
-    <li role="presentation" ng-class='{active: NotebooksCtrl.notebookKey == item.key}' ng-repeat="item in NotebooksCtrl.notebooks">
+    <li role="presentation" ng-class='{active: notebookNav.notebookKey == item.key}' ng-repeat="item in notebookNav.notebooks">
       <a ng-link='notebook({key: item.key})'>{{item.name}}</a>
     </li>
   </ul>

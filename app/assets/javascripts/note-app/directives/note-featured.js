@@ -5,10 +5,10 @@ angular.module('noteApp')
     return {
       scope: {},
       templateUrl: '/javascripts/note-app/templates/note-featured.html',
-      controller: 'NoteFeaturedCtrl',
-      controllerAs: 'NoteFeaturedCtrl'
+      controller: 'NoteFeaturedController',
+      controllerAs: 'noteFeatured'
     };
   })
-  .controller('NoteFeaturedCtrl', ['Note', function(Note) {
+  .controller('NoteFeaturedController', ['Note', function(Note) {
     this.featured = Note.featured();
   }]);
