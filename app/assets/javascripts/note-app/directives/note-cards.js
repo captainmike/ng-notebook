@@ -3,13 +3,16 @@
 angular.module('noteApp')
   .directive('noteCards', function() {
     return {
-      scope: {},
+      scope: {
+        notebookKey: '='
+      },
       templateUrl: '/javascripts/note-app/templates/note-cards.html',
-      controller: 'NoteCardsCtrl',
-      controllerAs: 'NoteCardsCtrl'
+      controller: 'NoteCardsController',
+      controllerAs: 'noteCard'
     };
   })
-  .controller('NoteCardsCtrl', ['Note', function(Note) {
+  .controller('NoteCardsController', ['$scope', 'Note', function($scope, Note) {
+    this.notebookKey = $scope.notebookKey;
     this.notes = Note.all();
   }]);
 

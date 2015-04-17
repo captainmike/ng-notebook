@@ -1,7 +1,7 @@
 <nav>
   <ul class="nav nav-pills pull-right">
-    <li role="presentation" ng-repeat="notebook in NotebooksCtrl.notebooks">
-      <a href="#">{{notebook.name}}</a>
+    <li role="presentation" ng-repeat="item in NotebooksCtrl.notebooks">
+      <a ng-link='notebook({key: item.key})'>{{item.name}}</a>
     </li>
   </ul>
 </nav>
