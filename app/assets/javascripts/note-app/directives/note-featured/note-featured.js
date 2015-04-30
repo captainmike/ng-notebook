@@ -4,7 +4,7 @@ angular.module('noteApp')
   .directive('noteFeatured', function() {
     return {
       scope: {},
-      templateUrl: '/javascripts/note-app/templates/note-featured.html',
+      templateUrl: './directives/note-featured/note-featured.html',
       controller: 'NoteFeaturedController',
       controllerAs: 'noteFeatured'
     };

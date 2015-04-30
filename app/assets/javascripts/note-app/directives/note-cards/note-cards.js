@@ -6,7 +6,7 @@ angular.module('noteApp')
       scope: {
         notebookKey: '='
       },
-      templateUrl: '/javascripts/note-app/templates/note-cards.html',
+      templateUrl: './directives/note-cards/note-cards.html',
       controller: 'NoteCardsController',
       controllerAs: 'noteCard'
     };

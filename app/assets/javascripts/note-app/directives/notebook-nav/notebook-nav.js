@@ -4,7 +4,7 @@ angular.module('noteApp')
       scope: {
         notebookKey: '='
       },
-      templateUrl: "/javascripts/note-app/templates/notebook-nav.html",
+      templateUrl: "./directives/notebook-nav/notebook-nav.html",
       controller: 'NotebooksController',
       controllerAs: 'notebookNav'
     };
