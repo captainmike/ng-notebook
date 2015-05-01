@@ -11,6 +11,7 @@ AppController.$routeConfig = [
   {path: '/', component: 'home'},
   {path: '/:page', component: 'home'},
   {path: '/notebook', component: 'notebook'},
+  {path: '/notebook/new', component: 'newNotebook', as: 'newNotebook'},
   {path: '/notebook/:key', component: 'notebook'}
 ];
 
