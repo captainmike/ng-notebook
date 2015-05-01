@@ -7,6 +7,18 @@ Some key characteristics:
 - Rails backend
 - Bower for front-end asset management
 - Component-based approach to Angular
-- Using the new Angular router (coming soon)
-- Angular Material (being considered)
+- Using the new Angular router
+- Angular Material (coming later)
 
+Feature to-do:
+- CRUD notebook
+- CRUD notes
+- Star notes
+- Unit tests
+- Integration tests
+- Integrate with backend
+- Authentication
+- Real-time integration on notebook creation
+- Add simple animation
+- Add zoom-in feature
+- Add validations
