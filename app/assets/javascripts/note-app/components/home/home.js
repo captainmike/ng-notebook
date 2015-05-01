@@ -1,2 +1,4 @@
-angular.module('noteApp.components', [])
+'use strict';
+
+angular.module('noteApp.components')
   .controller('HomeController', function() {});

@@ -1,4 +1,4 @@
-angular.module('noteApp')
+angular.module('noteApp.services')
   .factory('Note', function() {
     return {
       featured: function() {

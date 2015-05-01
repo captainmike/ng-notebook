@@ -1,4 +1,6 @@
-angular.module('noteApp')
+'use strict';
+
+angular.module('noteApp.services')
   .factory('Notebook', function() {
     return {
       all: function() {

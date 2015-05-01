@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('noteApp')
+angular.module('noteApp.directives')
   .directive('noteCards', function() {
     return {
       scope: {

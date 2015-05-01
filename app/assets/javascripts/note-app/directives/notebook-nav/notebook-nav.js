@@ -1,4 +1,6 @@
-angular.module('noteApp')
+'use strict';
+
+angular.module('noteApp.directives')
   .directive('notebookNav', function() {
     return {
       scope: {
