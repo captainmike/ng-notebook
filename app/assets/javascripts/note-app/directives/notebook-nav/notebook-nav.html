@@ -3,5 +3,6 @@
     <li role="presentation" ng-class='{active: notebookNav.notebookKey == item.key}' ng-repeat="item in notebookNav.notebooks">
       <a ng-link='notebook({key: item.key})'>{{item.name}}</a>
     </li>
+    <li role="presentation"><a ng-link="notebook/new">+</a></li>
   </ul>
 </nav>

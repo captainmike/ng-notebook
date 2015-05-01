@@ -12,7 +12,8 @@ angular.module('noteApp.directives')
     };
   })
   .controller('AppNavController', ['$scope', function($scope) {
+    this.currentKey = $scope.currentKey;
     this.navItems = [
-      {key: 'about-us', name: 'About Us'}
+      {key: 'about', name: 'About'}
     ];
   }]);

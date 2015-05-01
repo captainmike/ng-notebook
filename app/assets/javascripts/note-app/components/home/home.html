@@ -1,17 +1,6 @@
 <div class="header clearfix">
-  <app-nav></app-nav>
+  <app-nav current-key="home.page"></app-nav>
   <app-title></app-title>
 </div>
 
-<div ng-viewport></div>
-
-<div class="jumbotron">
-  <h1>Welcome to ng-notebook.</h1>
-  <p class="lead">
-    Get started now.
-  </p>
-  <p>
-    <a class="btn btn-lg btn-success" ng-link="notebook({key: ''})" role="button">Notebooks</a>
-  </p>
-</div>
-
+<div ng-include="home.page_path"></div>
