@@ -1,5 +1,5 @@
 angular.module('noteApp')
-  .directive('notebooks', function() {
+  .directive('notebookNav', function() {
     return {
       scope: {
         notebookKey: '='

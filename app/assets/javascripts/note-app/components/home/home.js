@@ -1,3 +1,2 @@
 angular.module('noteApp.components', [])
-  .controller('HomeController', function() {
-  });
+  .controller('HomeController', function() {});
