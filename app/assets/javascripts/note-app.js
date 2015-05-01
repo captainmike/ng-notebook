@@ -9,6 +9,7 @@ angular.module('noteApp.services', []);
 
 AppController.$routeConfig = [
   {path: '/', component: 'home'},
+  {path: '/:page', component: 'home'},
   {path: '/notebook', component: 'notebook'},
   {path: '/notebook/:key', component: 'notebook'}
 ];

@@ -1,0 +1,7 @@
+<nav>
+  <ul class="nav nav-pills pull-right">
+    <li role="presentation" ng-class='{active: appNav.key == item.key}' ng-repeat="item in appNav.navItems">
+      <a ng-link='home({page: item.key})'>{{item.name}}</a>
+    </li>
+  </ul>
+</nav>
